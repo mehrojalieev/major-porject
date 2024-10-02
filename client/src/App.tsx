@@ -1,18 +1,10 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.scss'; // Global SCSS
-import LoginPage from './pages/login-page/LoginPage';
-import CreateTemplatePage from './pages/create-template/CreateTemplatePage';
-import Home from './pages/home/Home';
+import './App.scss'; 
+
 
 function App() {
   return (
       <div className="App">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/create-template" element={<CreateTemplatePage />} />
-        </Routes>
+       <h2>Hello world</h2>
       </div>
   );
 }
