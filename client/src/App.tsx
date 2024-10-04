@@ -1,12 +1,12 @@
-import './App.scss'; 
+import Nav from './layout/nav/nav'
+import "./App.scss"
 
-
-function App() {
+const App = () => {
   return (
-      <div className="App">
-       <h2>Hello world</h2>
-      </div>
-  );
+    <div className='App'>
+      <Nav/>
+    </div>
+  )
 }
 
-export default App;
+export default App
