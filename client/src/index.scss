@@ -4,3 +4,24 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+:root{
+  --light-color: #fff;
+  --dark-color: #000;
+  --primary-dark-color: #0A1551;
+}
+
+.container{
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}

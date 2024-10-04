@@ -1,0 +1,35 @@
+@mixin f-style($f-size, $f-weight, $f-color) {
+    font-size: $f-size;
+    font-weight: $f-weight;
+    color: $f-color;
+}
+
+
+.nav-wrapper{
+    width: 100%;
+    padding: 1rem 0 !important;
+}
+
+
+.logo-link{
+    @include f-style(27px, 800, var(--primary-dark-color));
+    text-decoration: none;
+}
+
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+    .menu-item{
+        @include f-style(17px, 500, var(--primary-dark-color));
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        column-gap: 2px;
+        span{
+            @include f-style(16px, 500, var(--primary-dark-color));
+        }
+    }
+}
