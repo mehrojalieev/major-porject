@@ -1,5 +1,6 @@
-import Nav from './layout/nav/nav'
+
 import "./App.scss"
+import Nav from "./layout/nav/Nav"
 
 const App = () => {
   return (
