@@ -24,6 +24,8 @@ const Nav = () => {
                         <span className="material-symbols-outlined icon">keyboard_arrow_down</span>
                     </li>
                 </ul>
+
+                <div></div>
             </div>
         </nav>
     )
